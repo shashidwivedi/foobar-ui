@@ -1,0 +1,35 @@
+/* ========================================================================== */
+/* Documentation Styles */
+/* ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-width: 720px) {
+  .main {
+    display: flex;
+  }
+  
+  .index {
+    flex: 1 280px;
+    position: sticky;
+    height: 100vh;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+  }
+  
+  .content {
+    flex: 2 calc(100vw - 280px);
+  }
+}
