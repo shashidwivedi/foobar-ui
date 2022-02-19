@@ -67,7 +67,7 @@
   --space-xxl: 4rem;
 
   /* Border Radii */
-  --border-radius-full: 50%;
+  --border-radius-circle: 50%;
 
   /* Screen Sizes */
   --screen-size-sm: 600px;
@@ -474,7 +474,7 @@ template {
 .avatar {
   display: inline-block;
   vertical-align: middle;
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-circle);
   background-color: var(--color-secondary);
   color: var(--color-black);
   font-weight: 500;
@@ -505,7 +505,7 @@ template {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-circle);
 }
 
 .badge {}
