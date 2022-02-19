@@ -45,16 +45,6 @@ body {
   padding: 0 var(--space-xxl);
 }
 
-/* Demos */
-.demo {
-  display: flex;
-  flex-flow: column;
-}
-
-.demo .alert {
-  margin-bottom: var(--space-md);
-}
-
 /* Color Box Styles */
 .color-box {
   display: flex;
@@ -95,6 +85,21 @@ body {
 .color-box_item:nth-child(5) {
   background-color: var(--color-light);
   color: var(--color-black);
+}
+
+/* Demos */
+.demo {
+  display: flex;
+  flex-flow: column;
+  margin: var(--space-lg) 0 var(--space-xl);
+}
+
+.demo .alert {
+  margin-bottom: var(--space-md);
+}
+
+.demo .avatar {
+  margin-left: var(--space-md);
 }
 
 /* Tablet and Desktop Styles */

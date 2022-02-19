@@ -66,6 +66,9 @@
   --space-xl: 2.5rem;
   --space-xxl: 4rem;
 
+  /* Border Radii */
+  --border-radius-full: 50%;
+
   /* Screen Sizes */
   --screen-size-sm: 600px;
   --screen-size-md: 768px;
