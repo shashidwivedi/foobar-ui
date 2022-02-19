@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foobar UI</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/foobar-ui.css" />
+    <link rel="stylesheet" href="styles/foobar-ui.min.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,9 +24,9 @@
       <h1>Foobar UI</h1>
     </header>
     <main class="main">
-      <nav id="index" class="index">
+      <nav id="index" class="index custom-scrollbar">
         <h2>Get Started</h2>
-        <ul>
+        <ul class="nobullets">
           <li>
             <a class="index-link" href="#introduction">Introduction</a>
           </li>
@@ -46,12 +45,12 @@
         </ul>
 
         <h2>Components</h2>
-        <ul>
-          <li>
-            <a class="index-link" href="#avatar">Avatar</a>
-          </li>
+        <ul class="nobullets">
           <li>
             <a class="index-link" href="#alert">Alert</a>
+          </li>
+          <li>
+            <a class="index-link" href="#avatar">Avatar</a>
           </li>
           <li>
             <a class="index-link" href="#badge">Badge</a>
@@ -75,109 +74,105 @@
         <article class="article" id="introduction">
           <h2>Introduction</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </article>
-        <article class="article" id="colors">
-          <h2>Colors</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Foobar UI gives you a set of commonly-used components which you can
+            easily use in your project. Just add this in your html:
           </p>
           <pre>
             <code>
-              <h2 class="card">Colors</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>
+              <link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.css">
             </code>
           </pre>
         </article>
         <article class="article" id="colors">
           <h2>Colors</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Foobar UI uses the below set of five colors. You can easily
+            overrride the CSS color variables if you want to use your custom
+            colors. To quickstart, you can visit
+            <a href="https://coolors.co/" target="_blank">Coolors</a> for
+            selecting your custom set of colors.
           </p>
-          <pre>
-            <code>
-              <h2 class="card">Colors</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>
-            </code>
-          </pre>
+          <div class="color-box">
+            <div class="color-box_item">
+              <span class="color-box_value">#DC143C</span>
+            </div>
+            <div class="color-box_item">
+              <span class="color-box_value">#191919</span>
+            </div>
+            <div class="color-box_item">
+              <span class="color-box_value">#F58A07</span>
+            </div>
+            <div class="color-box_item">
+              <span class="color-box_value">#FFFFFF</span>
+            </div>
+            <div class="color-box_item">
+              <span class="color-box_value">#EEEEEE</span>
+            </div>
+          </div>
         </article>
-        <article class="article" id="colors">
-          <h2>Colors</h2>
+        <article class="article" id="spacing">
+          <h2>Spacing</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <pre>
-            <code>
-              <h2 class="card">Colors</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>
-            </code>
-          </pre>
         </article>
-        <article class="article" id="colors">
-          <h2>Colors</h2>
+        <article class="article" id="typography">
+          <h2>Typography</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <pre>
-            <code>
-              <h2 class="card">Colors</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>
-            </code>
-          </pre>
         </article>
-        <article class="article" id="colors">
-          <h2>Colors</h2>
+        <article class="article" id="utilities">
+          <h2>Utilities</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
+        </article>
+        <article class="article" id="alert">
+          <h2>Alert</h2>
+          <p>
+            An alert component displays an important message for a user without
+            interrupting the user's task.
+          </p>
+          <div class="demo">
+            <div class="alert alert-success">
+              <span>I am a success alert</span>
+            </div>
+            <div class="alert alert-error">
+              <span>I am an error alert</span>
+            </div>
+            <div class="alert alert-warning">
+              <span>I am a warning alert</span>
+            </div>
+            <div class="alert alert-info">
+              <span>I am an info alert</span>
+            </div>
+          </div>
           <pre>
             <code>
-              <h2 class="card">Colors</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>
+              <div class="demo">
+                <div class="alert alert-success">
+                  <span>I am a success alert</span>
+                </div>
+                <div class="alert alert-error">
+                  <span>I am an error alert</span>
+                </div>
+                <div class="alert alert-warning">
+                  <span>I am a warning alert</span>
+                </div>
+                <div class="alert alert-info">
+                  <span>I am an info alert</span>
+                </div>
+              </div>
             </code>
           </pre>
         </article>

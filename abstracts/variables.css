@@ -1,0 +1,74 @@
+:root {
+  /* Colors */
+  --color-primary: #dc143c;
+  --color-secondary: #f58a07;
+  --color-black: #000000;
+  --color-dark: #191919;
+  --color-light: #eeeeee;
+  --color-white: #ffffff;
+
+  --color-success: #cff7cf;
+  --color-success-text: #003303;
+  --color-danger: #fcdcdc;
+  --color-danger-text: #3b0100;
+  --color-warning: #ffdcac;
+  --color-warning-text: #472a00;
+  --color-info: #bfe8fa;
+  --color-info-text: #002638;
+
+  --heading-color-primary: var(--color-primary);
+  --text-color-primary: var(--color-dark);
+  --background-color-primary: var(--color-white);
+
+  --heading-color-secondary: var(--color-white);
+  --text-color-secondary: var(--color-light);
+  --background-color-secondary: var(--color-dark);
+
+  --btn-text-color-primary: var(--color-white);
+  --btn-background-color-primary: var(--color-primary);
+
+  --btn-text-color-secondary: var(--color-dark);
+  --btn-background-color-secondary: var(--color-secondary);
+
+  /* Font families */
+  --font-family-heading: "Poppins", sans-serif;
+  --font-family-text: "Montserrat", sans-serif;
+
+  /* Font sizes */
+  --font-size-xs: 0.5rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 3rem;
+
+  /* Line heights */
+  --line-height-sm: 1.25;
+  --line-height-md: 1.333333;
+  --line-height-lg: 1.5;
+  --line-height-xl: 2;
+
+  /* Letter spacings */
+  --letter-spacing-sm: 0.05em;
+  --letter-spacing-md: 0.1em;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 2.5rem;
+  --space-xxl: 4rem;
+
+  /* Screen Sizes */
+  --screen-size-sm: 600px;
+  --screen-size-md: 768px;
+  --screen-size-lg: 992px;
+  --screen-size-xl: 1200px;
+}

@@ -5,6 +5,10 @@ new_line="hello"
 echo Parent path: $parent_path
 
 # Create temp CSS files in /workflow for merging
+sed -s -e $'$a\\\n' $parent_path/abstracts/variables.css > $parent_path/workflow/variables.css
+sed -s -e $'$a\\\n' $parent_path/base/normalize.css > $parent_path/workflow/normalize.css
+sed -s -e $'$a\\\n' $parent_path/base/reset.css > $parent_path/workflow/reset.css
+sed -s -e $'$a\\\n' $parent_path/base/utilities.css > $parent_path/workflow/utilities.css
 sed -s -e $'$a\\\n' $parent_path/components/alert/alert.css > $parent_path/workflow/alert.css
 sed -s -e $'$a\\\n' $parent_path/components/avatar/avatar.css > $parent_path/workflow/avatar.css
 sed -s -e $'$a\\\n' $parent_path/components/badge/badge.css > $parent_path/workflow/badge.css
@@ -16,7 +20,12 @@ sed -s -e $'$a\\\n' $parent_path/components/rating/rating.css > $parent_path/wor
 sed -s -e $'$a\\\n' $parent_path/components/text-utilities/text-utilities.css > $parent_path/workflow/text-utilities.css
 
 # Merge temp CSS files into /styles/foobar-ui.css
-cat $parent_path/workflow/alert.css \
+cat \
+$parent_path/workflow/variables.css \
+$parent_path/workflow/normalize.css \
+$parent_path/workflow/reset.css \
+$parent_path/workflow/utilities.css \
+$parent_path/workflow/alert.css \
 $parent_path/workflow/avatar.css \
 $parent_path/workflow/badge.css \
 $parent_path/workflow/button.css \
@@ -30,6 +39,10 @@ $parent_path/workflow/text-utilities.css \
 sed -i '$ d' $parent_path/styles/foobar-ui.css
 
 # Remove temp CSS files
+rm $parent_path/workflow/variables.css
+rm $parent_path/workflow/normalize.css
+rm $parent_path/workflow/reset.css
+rm $parent_path/workflow/utilities.css
 rm $parent_path/workflow/alert.css
 rm $parent_path/workflow/avatar.css
 rm $parent_path/workflow/badge.css
