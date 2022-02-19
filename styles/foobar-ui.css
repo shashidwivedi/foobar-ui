@@ -66,6 +66,9 @@
   --space-xl: 2.5rem;
   --space-xxl: 4rem;
 
+  /* Border Radii */
+  --border-radius-circle: 50%;
+
   /* Screen Sizes */
   --screen-size-sm: 600px;
   --screen-size-md: 768px;
@@ -433,6 +436,11 @@ template {
   padding: 0;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .alert {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
@@ -463,7 +471,42 @@ template {
   color: var(--color-info-text);
 }
 
-.avatar {}
+.avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: var(--border-radius-circle);
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-sm {
+  height: var(--space-lg);
+  width: var(--space-lg);
+  font-size: var(--space-xs);
+}
+
+.avatar-md {
+  height: var(--space-xl);
+  width: var(--space-xl);
+  font-size: var(--space-sm);
+}
+
+.avatar-lg {
+  height: var(--space-xxl);
+  width: var(--space-xxl);
+  font-size: var(--space-md);
+}
+
+.avatar__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+}
 
 .badge {}
 
