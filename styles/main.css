@@ -111,6 +111,11 @@ body {
   margin-left: 0;
 }
 
+.demo .btn {
+  margin-left: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
 /* Tablet and Desktop Styles */
 @media only screen and (min-width: 720px) {
   .main {
