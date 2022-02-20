@@ -582,7 +582,125 @@ template {
   border-radius: var(--border-radius-circle);
 }
 
-.card {}
+.card {
+  border-radius: 4px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light);
+  display: flex;
+  flex-direction: column;
+  width: calc(var(--space-sm) * 21.875);
+  margin: var(--space-xl) 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card-media {
+  position: relative;
+  object-fit: cover;
+}
+
+.card-title {
+  padding: var(--space-sm);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-dark);
+}
+
+.card-description {
+  padding: 0 var(--space-sm) var(--space-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-dark);
+}
+
+.card-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: var(--space-xxl);
+  padding: var(--space-xs);
+  margin-left: auto;
+}
+
+.card-btn {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  height: var(--space-lg);
+  border: 1px solid var(--color-light);
+}
+
+.card-btn:hover {
+  box-shadow: none;
+}
+
+.card-btn:not(:last-child) {
+  margin-right: var(--space-sm);
+}
+
+.card_with-badge {
+  position: relative;
+}
+
+.card_text-overlay,
+.card_text-only {
+  height: min-content;
+}
+
+.card_text-overlay .card-text {
+  position: absolute;
+  bottom: 0;
+  backdrop-filter: blur(6px) brightness(80%);
+  color: var(--color-white);
+}
+
+.card_text-overlay .card-title {
+  color: unset;
+}
+
+.card_text-overlay .card-description {
+  color: unset;
+}
+
+.card_text-overlay .card-action {
+  display: none;
+}
+
+.card_text-only .card-media {
+  display: none;
+}
+
+.card_text-only .card-action {
+  display: none;
+}
+
+.card_horizontal {
+  width: calc(var(--space-sm) * 43.75);
+  position: relative;
+}
+
+.card_horizontal .card-content {
+  flex-direction: row;
+}
+
+.card_horizontal .card-media {
+  width: 50%;
+}
+
+.card_horizontal .card-action {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card_with-shadow {
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
 
 .image {}
 
