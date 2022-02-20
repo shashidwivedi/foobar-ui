@@ -1,1 +1,11 @@
-.image {}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-round {
+  width: calc(var(--space-xl) * 10);
+  height: calc(var(--space-xl) * 10);
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+}
