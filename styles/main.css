@@ -126,6 +126,10 @@ body {
   margin-bottom: unset;
 }
 
+.demo .img-round {
+  margin: var(--space-md) auto;
+}
+
 /* Tablet and Desktop Styles */
 @media only screen and (min-width: 720px) {
   .main {
