@@ -116,6 +116,16 @@ body {
   margin-bottom: var(--space-md);
 }
 
+.demo .card {
+  margin-left: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.demo .card .btn {
+  margin-left: unset;
+  margin-bottom: unset;
+}
+
 /* Tablet and Desktop Styles */
 @media only screen and (min-width: 720px) {
   .main {
