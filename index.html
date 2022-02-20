@@ -586,7 +586,7 @@
             </code>
           </pre>
         </article>
-        <article class="article" id="introduction">
+        <article class="article" id="image">
           <h2>Image</h2>
           <p>
             Image component embeds an image into the document. It can be responsive and/or round.
@@ -600,6 +600,53 @@
               <img class="img-responsive" src="https://picsum.photos/800/600" alt="A responsive image">
 
               <img class="img-round" src="https://picsum.photos/800/600" alt="A round image">
+            </code>
+          </pre>
+        </article>
+        <article class="article" id="input">
+          <h2>Input</h2>
+          <p>
+            Input component adds styles for textbox, can also be used with validation and error styles.
+          </p>
+          <div class="demo">
+            <div class="textbox">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username">
+            </div>
+            <div class="textbox textbox-required">
+              <label for="firstname">First Name<sup>*</sup></label>
+              <input type="text" name="firstname" id="firstname" required>
+            </div>
+            <div class="textbox textbox-error">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+            </div>
+            <div class="textbox textbox-validated">
+              <label for="postalcode">Postal Code</label>
+              <input type="text" name="postalcode" id="postalcode" value="560001">
+            </div>
+          </div>
+          <pre>
+            <code>
+              <div class="textbox">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+              </div>
+
+              <div class="textbox textbox-required">
+                <label for="firstname">First Name<sup>*</sup></label>
+                <input type="text" name="firstname" id="firstname" required>
+              </div>
+
+              <div class="textbox textbox-error">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+
+              <div class="textbox textbox-validated">
+                <label for="postalcode">Postal Code</label>
+                <input type="text" name="postalcode" id="postalcode">
+              </div>
             </code>
           </pre>
         </article>

@@ -714,7 +714,41 @@ template {
   border-radius: var(--border-radius-circle);
 }
 
-.input {}
+.textbox {
+  margin: var(--space-xs) 0;
+}
+
+.textbox label {
+  color: var(--color-dark);
+  display: block;
+  height: var(--space-md);
+  line-height: var(--space-md);
+  padding: 0;
+  margin: var(--space-xs);
+  border: 0;
+  min-width: 0;
+  width: 100%;
+}
+
+.textbox input {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  height: var(--space-lg);
+  padding: 0 var(--space-sm);
+  margin: var(--space-xs);
+  border: 1px solid var(--color-dark);
+  min-width: 0;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.textbox-error input {
+  border: 1px solid var(--color-primary);
+}
+
+.textbox-validated input {
+  border: 1px solid var(--color-success);
+}
 
 .rating {}
 
