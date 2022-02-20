@@ -99,7 +99,16 @@ body {
 }
 
 .demo .avatar {
-  margin-left: var(--space-md);
+  margin-left: var(--space-xl);
+}
+
+.demo .badge {
+  margin-left: var(--space-xl);
+  align-self: flex-start;
+}
+
+.demo .badge .avatar {
+  margin-left: 0;
 }
 
 /* Tablet and Desktop Styles */

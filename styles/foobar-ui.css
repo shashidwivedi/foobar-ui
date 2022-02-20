@@ -438,7 +438,7 @@ template {
 
 .flex-row {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .alert {
@@ -508,7 +508,37 @@ template {
   border-radius: var(--border-radius-circle);
 }
 
-.badge {}
+.badge {
+  position: relative;
+  font-size: var(--font-size-md);
+}
+
+.badge-anchor {
+  position: absolute;
+  top: calc(var(--font-size-xs) * -1);
+  right: calc(var(--font-size-sm) * -1);
+  font-size: calc(var( --font-size-md) / 2);
+  border-radius: calc(var( --space-xl) / 2);
+  line-height: calc(var( --space-xl) / 2);
+  height: calc(var( --space-xl) / 2);
+  min-width: calc(var( --space-xl) / 2);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0 6px;
+}
+
+.badge-anchor-avatar {
+  position: absolute;
+  bottom: 0;
+  right: var(--space-xs);
+  border-radius: calc(var( --space-xs) / 2);
+  line-height: calc(var( --space-xs) / 2);
+  height: var( --space-xs);
+  width: var( --space-xs);
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 0 4px;
+}
 
 .btn {}
 
