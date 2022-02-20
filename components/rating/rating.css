@@ -1,1 +1,11 @@
-.rating {}
+.rating {
+  font-size: var(--font-size-md);
+}
+
+.rating .rating-star {
+  cursor: pointer;
+}
+
+.rating .icon-filled {
+  color: var(--color-secondary);
+}
