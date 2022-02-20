@@ -130,6 +130,11 @@ body {
   margin: var(--space-md) auto;
 }
 
+.demo h1,
+.demo p {
+  margin-bottom: var(--space-sm);
+}
+
 /* Tablet and Desktop Styles */
 @media only screen and (min-width: 720px) {
   .main {

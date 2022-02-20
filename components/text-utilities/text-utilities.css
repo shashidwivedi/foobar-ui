@@ -1,1 +1,81 @@
-.text {}
+.heading-1 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-md);
+}
+
+.heading-2 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-sm);
+}
+
+.heading-3 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+.heading-4 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+}
+
+.heading-5 {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xl);
+}
+
+.text-1 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-md);
+}
+
+.text-2 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-sm);
+}
+
+.text-3 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+.text-4 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+}
+
+.text-5 {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xl);
+}
+
+.text-small {
+  font-size: calc(var(--font-size-sm) * 5 / 6);
+}
+
+.text-gray {
+  color: var(--color-gray);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-black {
+  font-weight: var(--font-weight-black);
+}
+
+.text-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.text-semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-regular {
+  font-weight: var(--font-weight-regular);
+}
+
+.text-light {
+  font-weight: var(--font-weight-light);
+}
