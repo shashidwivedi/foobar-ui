@@ -1,5 +1,6 @@
 # Foobar UI
 A component library made using HTML and CSS
+Visit [Foobar UI](https://foobar-ui.netlify.app/) fore more info
 
 ## Components
 - Alert
