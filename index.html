@@ -74,6 +74,15 @@
           <li>
             <a class="index-link" href="#input">Input</a>
           </li>
+          <li>
+            <a class="index-link" href="#text-utilities">Text Utilities</a>
+          </li>
+          <li>
+            <a class="index-link" href="#rating">Rating</a>
+          </li>
+          <li>
+            <a class="index-link" href="#grid">Simplified Grid</a>
+          </li>
         </ul>
       </nav>
 
@@ -87,6 +96,8 @@
           <pre>
             <code>
               <link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.css">
+
+              <link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.min.css">
             </code>
           </pre>
         </article>
@@ -122,28 +133,35 @@
         <article class="article" id="spacing">
           <h2>Spacing</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Spacing gives consistent UX and provides visual hierarchy to the elements.
+            8px / 16px / 24px / 32px / 40px / 64px are different spacing used in the components.
           </p>
+          <div class="demo">
+            <div class="flex-row">
+              <div class="spacing-box -xs"></div>
+              <div class="spacing-box -sm"></div>
+              <div class="spacing-box -md"></div>
+              <div class="spacing-box -lg"></div>
+              <div class="spacing-box -xl"></div>
+              <div class="spacing-box -xxl"></div>
+            </div>
+          </div>
         </article>
         <article class="article" id="typography">
           <h2>Typography</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Typography establishes a strong visual hierarchy, and set's the product's overall tone.
+            For heading, Foobar UI uses <a href="https://fonts.google.com/specimen/Poppins"
+            target="_blank">Poppins</a> and for text, <a href="https://fonts.google.com/specimen/Montserrat"
+            target="_blank">Montserrat</a>. You can go to google fonts
+            to include the same in your project.
           </p>
         </article>
         <article class="article" id="utilities">
           <h2>Utilities</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Utilities gives us few classes which we can use in order to give a style which is used a lot, and reduce
+            the number of line in the stylesheets, e.g nobullets, flex-row, disabled, hide, invisible, etc.
           </p>
         </article>
         <article class="article" id="alert">
@@ -745,10 +763,45 @@
             </code>
           </pre>
         </article>
+        <article class="article" id="grid">
+          <h2>Simplified Grid</h2>
+          <p>
+            Simplified Grid component gives you the way to add two-column and three-column grids to your project.
+          </p>
+          <div class="demo">
+            <div class="container">
+              <div class="grid-2">
+                <div class="grid-col">Col 1</div>
+                <div class="grid-col">Col 2</div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="grid-3">
+                <div class="grid-col">Col 1</div>
+                <div class="grid-col">Col 2</div>
+                <div class="grid-col">Col 3</div>
+              </div>
+            </div>
+          </div>
+          <pre>
+            <code>
+              <div class="grid-2">
+                <div class="grid-col">Col 1</div>
+                <div class="grid-col">Col 2</div>
+              </div>
+  
+              <div class="grid-3">
+                <div class="grid-col">Col 1</div>
+                <div class="grid-col">Col 2</div>
+                <div class="grid-col">Col 3</div>
+              </div>
+            </code>
+          </pre>
+        </article>
       </section>
     </main>
     <footer class="footer">
-      <p><span>© Foobar UI</span></p>
+      <p class="text-center text-gray text-small"><span>© Foobar UI</span></p>
     </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
