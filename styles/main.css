@@ -87,6 +87,42 @@ body {
   color: var(--color-black);
 }
 
+/* Spacing */
+.spacing-box {
+  background-color: var(--color-dark);
+  margin-left: var(--space-lg);
+}
+
+.spacing-box.-xs {
+  height: var(--space-xs);
+  width: var(--space-xs);
+}
+
+.spacing-box.-sm {
+  height: var(--space-sm);
+  width: var(--space-sm);
+}
+
+.spacing-box.-md {
+  height: var(--space-md);
+  width: var(--space-md);
+}
+
+.spacing-box.-lg {
+  height: var(--space-lg);
+  width: var(--space-lg);
+}
+
+.spacing-box.-xl {
+  height: var(--space-xl);
+  width: var(--space-xl);
+}
+
+.spacing-box.-xxl {
+  height: var(--space-xxl);
+  width: var(--space-xxl);
+}
+
 /* Demos */
 .demo {
   display: flex;
@@ -137,6 +173,20 @@ body {
 
 .demo .rating {
   margin-bottom: var(--space-md);
+}
+
+.demo .container {
+  width: 100%;
+  margin-bottom: var(--space-md);
+}
+
+.demo .grid-col {
+  padding: var(--space-md) var(--space-xl);
+  border: 1px solid var(--color-secondary);
+}
+
+.demo .grid-col:not(:last-child) {
+  border-right: 0;
 }
 
 /* Tablet and Desktop Styles */

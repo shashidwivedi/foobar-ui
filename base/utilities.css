@@ -12,3 +12,11 @@
 .disabled {
   opacity: 0.38;
 }
+
+.hide {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
