@@ -190,13 +190,14 @@ body {
 }
 
 /* Tablet and Desktop Styles */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .main {
     display: flex;
   }
 
   .index {
-    flex: 1 280px;
+    width: 18rem;
+    flex-shrink: 0;
     position: sticky;
     height: 100vh;
     overflow-y: auto;
@@ -205,7 +206,8 @@ body {
   }
 
   .content {
-    flex: 2 calc(100vw - 280px);
+    width: calc(100vw - 18rem);
+    flex: 1 1 0%;
   }
 
   .color-box_item {
