@@ -190,7 +190,7 @@ body {
 }
 
 /* Tablet and Desktop Styles */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .main {
     display: flex;
   }
