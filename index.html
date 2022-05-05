@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foobar UI</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
     <link rel="stylesheet" href="styles/foobar-ui.min.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,6 +32,63 @@
       <h1>Foobar UI</h1>
     </header>
     <main class="main">
+      <details class="docs-nav-mobile">
+        <summary><h2>Docs Navigation</h2></summary>
+        <nav id="index" class="index custom-scrollbar">
+          <h2>Get Started</h2>
+          <ul class="nobullets">
+            <li>
+              <a class="index-link" href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a class="index-link" href="#colors">Colors</a>
+            </li>
+            <li>
+              <a class="index-link" href="#spacing">Spacing</a>
+            </li>
+            <li>
+              <a class="index-link" href="#typography">Typography</a>
+            </li>
+            <li>
+              <a class="index-link" href="#utilities">Utilities</a>
+            </li>
+          </ul>
+  
+          <h2>Components</h2>
+          <ul class="nobullets">
+            <li>
+              <a class="index-link" href="#alert">Alert</a>
+            </li>
+            <li>
+              <a class="index-link" href="#avatar">Avatar</a>
+            </li>
+            <li>
+              <a class="index-link" href="#badge">Badge</a>
+            </li>
+            <li>
+              <a class="index-link" href="#button">Button</a>
+            </li>
+            <li>
+              <a class="index-link" href="#card">Card</a>
+            </li>
+            <li>
+              <a class="index-link" href="#image">Image</a>
+            </li>
+            <li>
+              <a class="index-link" href="#input">Input</a>
+            </li>
+            <li>
+              <a class="index-link" href="#text-utilities">Text Utilities</a>
+            </li>
+            <li>
+              <a class="index-link" href="#rating">Rating</a>
+            </li>
+            <li>
+              <a class="index-link" href="#grid">Simplified Grid</a>
+            </li>
+          </ul>
+        </nav>
+      </details>
       <nav id="index" class="index custom-scrollbar">
         <h2>Get Started</h2>
         <ul class="nobullets">
@@ -95,9 +153,9 @@
           </p>
           <pre>
             <code>
-              <link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.css">
+<link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.css">
 
-              <link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.min.css">
+<link rel="stylesheet" href="https://foobar-ui.netlify.app/styles/foobar-ui.min.css">
             </code>
           </pre>
         </article>
@@ -186,18 +244,18 @@
           </div>
           <pre>
             <code>
-              <div class="alert alert-success">
-                <span>I am a success alert</span>
-              </div>
-              <div class="alert alert-error">
-                <span>I am an error alert</span>
-              </div>
-              <div class="alert alert-warning">
-                <span>I am a warning alert</span>
-              </div>
-              <div class="alert alert-info">
-                <span>I am an info alert</span>
-              </div>
+<div class="alert alert-success">
+  <span>I am a success alert</span>
+</div>
+<div class="alert alert-error">
+  <span>I am an error alert</span>
+</div>
+<div class="alert alert-warning">
+  <span>I am a warning alert</span>
+</div>
+<div class="alert alert-info">
+  <span>I am an info alert</span>
+</div>
             </code>
           </pre>
         </article>
@@ -212,21 +270,21 @@
               <span class="avatar avatar-sm">
                 <img
                   src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
+                  alt="Avatar"
                   class="avatar__img"
                 />
               </span>
               <span class="avatar avatar-md">
                 <img
                   src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
+                  alt="Avatar"
                   class="avatar__img"
                 />
               </span>
               <span class="avatar avatar-lg">
                 <img
                   src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
+                  alt="Avatar"
                   class="avatar__img"
                 />
               </span>
@@ -237,30 +295,30 @@
           </div>
           <pre>
             <code>
-              <span class="avatar avatar-sm">
-                <img
-                  src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
-                  class="avatar__img"
-                />
-              </span>
-              <span class="avatar avatar-md">
-                <img
-                  src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
-                  class="avatar__img"
-                />
-              </span>
-              <span class="avatar avatar-lg">
-                <img
-                  src="https://i.pravatar.cc/128"
-                  alt="Avatar Image"
-                  class="avatar__img"
-                />
-              </span>
-              <span class="avatar avatar-sm">SD</span>
-              <span class="avatar avatar-md">SD</span>
-              <span class="avatar avatar-lg">SD</span>
+<span class="avatar avatar-sm">
+  <img
+    src="https://i.pravatar.cc/128"
+    alt="Avatar"
+    class="avatar__img"
+  />
+</span>
+<span class="avatar avatar-md">
+  <img
+    src="https://i.pravatar.cc/128"
+    alt="Avatar"
+    class="avatar__img"
+  />
+</span>
+<span class="avatar avatar-lg">
+  <img
+    src="https://i.pravatar.cc/128"
+    alt="Avatar"
+    class="avatar__img"
+  />
+</span>
+<span class="avatar avatar-sm">SD</span>
+<span class="avatar avatar-md">SD</span>
+<span class="avatar avatar-lg">SD</span>
             </code>
           </pre>
         </article>
@@ -288,7 +346,7 @@
                 <span class="avatar avatar-sm">
                   <img
                     src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
+                    alt="Avatar"
                     class="avatar__img"
                   />
                 </span>
@@ -298,7 +356,7 @@
                 <span class="avatar avatar-md">
                   <img
                     src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
+                    alt="Avatar"
                     class="avatar__img"
                   />
                 </span>
@@ -308,7 +366,7 @@
                 <span class="avatar avatar-lg">
                   <img
                     src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
+                    alt="Avatar"
                     class="avatar__img"
                   />
                 </span>
@@ -319,53 +377,53 @@
           </div>
           <pre>
             <code>
-              <span class="badge">
-                <i class="fa-solid fa-house"></i>
-                <span class="badge-anchor">9</span>
-              </span>
+<span class="badge">
+  <i class="fa-solid fa-house"></i>
+  <span class="badge-anchor">9</span>
+</span>
 
-              <span class="badge">
-                <i class="fa-solid fa-house"></i>
-                <span class="badge-anchor">99</span>
-              </span>
+<span class="badge">
+  <i class="fa-solid fa-house"></i>
+  <span class="badge-anchor">99</span>
+</span>
 
-              <span class="badge">
-                <i class="fa-solid fa-house"></i>
-                <span class="badge-anchor">999</span>
-              </span>
+<span class="badge">
+  <i class="fa-solid fa-house"></i>
+  <span class="badge-anchor">999</span>
+</span>
 
-              <span class="badge">
-                <span class="avatar avatar-sm">
-                  <img
-                    src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
-                    class="avatar__img"
-                  />
-                </span>
-                <span class="badge-anchor-avatar"></span>
-              </span>
-              
-              <span class="badge">
-                <span class="avatar avatar-md">
-                  <img
-                    src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
-                    class="avatar__img"
-                  />
-                </span>
-                <span class="badge-anchor-avatar"></span>
-              </span>
+<span class="badge">
+  <span class="avatar avatar-sm">
+    <img
+      src="https://i.pravatar.cc/128"
+      alt="Avatar"
+      class="avatar__img"
+    />
+  </span>
+  <span class="badge-anchor-avatar"></span>
+</span>
 
-              <span class="badge">
-                <span class="avatar avatar-lg">
-                  <img
-                    src="https://i.pravatar.cc/128"
-                    alt="Avatar Image"
-                    class="avatar__img"
-                  />
-                </span>
-                <span class="badge-anchor-avatar"></span>
-              </span>
+<span class="badge">
+  <span class="avatar avatar-md">
+    <img
+      src="https://i.pravatar.cc/128"
+      alt="Avatar"
+      class="avatar__img"
+    />
+  </span>
+  <span class="badge-anchor-avatar"></span>
+</span>
+
+<span class="badge">
+  <span class="avatar avatar-lg">
+    <img
+      src="https://i.pravatar.cc/128"
+      alt="Avatar"
+      class="avatar__img"
+    />
+  </span>
+  <span class="badge-anchor-avatar"></span>
+</span>
             </code>
           </pre>
         </article>
@@ -390,23 +448,23 @@
           </div>
           <pre>
             <code>
-              <button class="btn btn-primary">Button</button>
+<button class="btn btn-primary">Button</button>
 
-              <a class="btn btn-link" href="#button">Button</a>
+<a class="btn btn-link" href="#button">Button</a>
 
-              <button class="btn btn-icon"><i class="fa-solid fa-star"></i></button>
+<button class="btn btn-icon"><i class="fa-solid fa-star"></i></button>
 
-              <button class="btn btn-floating-action"><i class="fa-solid fa-plus"></i></button>
+<button class="btn btn-floating-action"><i class="fa-solid fa-plus"></i></button>
 
-              <button class="btn btn-primary" disabled>Button</button>
+<button class="btn btn-primary" disabled>Button</button>
 
-              <a class="btn btn-link disabled" href="#button">Button</a>
+<a class="btn btn-link disabled" href="#button">Button</a>
 
-              <button class="btn btn-icon" disabled><i class="fa-solid fa-star"></i></button>
+<button class="btn btn-icon" disabled><i class="fa-solid fa-star"></i></button>
 
-              <button class="btn btn-floating-action" disabled>
-                <i class="fa-solid fa-plus"></i>
-              </button>
+<button class="btn btn-floating-action" disabled>
+  <i class="fa-solid fa-plus"></i>
+</button>
             </code>
           </pre>
         </article>
@@ -416,7 +474,7 @@
             Card component gives you a way to add content for a single subject.
           </p>
           <div class="demo">
-            <div class="flex-row">
+            <div class="flex-row card-grid">
               <div class="card">
                 <div class="card-content">
                   <img class="card-media" src="https://picsum.photos/600/400">
@@ -500,107 +558,107 @@
           </div>
           <pre>
             <code>
-              <div class="card">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
-                      iure ipsa molestias iste provident architecto voluptates.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-              </div>
+<div class="card">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
+        iure ipsa molestias iste provident architecto voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+</div>
 
-              <div class="card card_with-badge">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
-                      iure ipsa molestias iste provident architecto voluptates.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-                <span class="card-badge badge-anchor">99</span>
-              </div>
+<div class="card card_with-badge">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
+        iure ipsa molestias iste provident architecto voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+  <span class="card-badge badge-anchor">99</span>
+</div>
 
-              <div class="card card_text-overlay">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-              </div>
+<div class="card card_text-overlay">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+</div>
 
-              <div class="card card_text-only">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
-                      iure ipsa molestias iste provident architecto voluptates.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-              </div>
+<div class="card card_text-only">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
+        iure ipsa molestias iste provident architecto voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+</div>
 
-              <div class="card card_horizontal">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
-                      iure ipsa molestias iste provident architecto voluptates.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-              </div>
+<div class="card card_horizontal">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
+        iure ipsa molestias iste provident architecto voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+</div>
 
-              <div class="card card_with-shadow">
-                <div class="card-content">
-                  <img class="card-media" src="https://picsum.photos/600/400">
-                  <div class="card-text">
-                    <div class="card-title">Card Heading</div>
-                    <div class="card-description">Lorem ipsum dolor sit amet consectetur,
-                      adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
-                      iure ipsa molestias iste provident architecto voluptates.
-                    </div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
-                  <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
-                </div>
-              </div>
+<div class="card card_with-shadow">
+  <div class="card-content">
+    <img class="card-media" src="https://picsum.photos/600/400">
+    <div class="card-text">
+      <div class="card-title">Card Heading</div>
+      <div class="card-description">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Alias ducimus quisquam doloribus error quas veniam
+        iure ipsa molestias iste provident architecto voluptates.
+      </div>
+    </div>
+  </div>
+  <div class="card-action">
+    <button class="btn card-btn"><i class="fa-solid fa-heart"></i></button>
+    <button class="btn card-btn"><i class="fa-solid fa-close"></i></button>
+  </div>
+</div>
             </code>
           </pre>
         </article>
@@ -610,14 +668,14 @@
             Image component embeds an image into the document. It can be responsive and/or round.
           </p>
           <div class="demo">
-            <img class="img-responsive" src="https://picsum.photos/800/600" alt="A responsive image">
-            <img class="img-round" src="https://picsum.photos/800/600" alt="A responsive image">
+            <img class="img-responsive" src="https://picsum.photos/800/600" alt="Random image from picsum">
+            <img class="img-round" src="https://picsum.photos/800/600" alt="Random image from picsum">
           </div>
           <pre>
             <code>
-              <img class="img-responsive" src="https://picsum.photos/800/600" alt="A responsive image">
+<img class="img-responsive" src="https://picsum.photos/800/600" alt="Random image from picsum">
 
-              <img class="img-round" src="https://picsum.photos/800/600" alt="A round image">
+<img class="img-round" src="https://picsum.photos/800/600" alt="Random image from picsum">
             </code>
           </pre>
         </article>
@@ -646,25 +704,25 @@
           </div>
           <pre>
             <code>
-              <div class="textbox">
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username">
-              </div>
+<div class="textbox">
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username">
+</div>
 
-              <div class="textbox textbox-required">
-                <label for="firstname">First Name<sup>*</sup></label>
-                <input type="text" name="firstname" id="firstname" required>
-              </div>
+<div class="textbox textbox-required">
+  <label for="firstname">First Name<sup>*</sup></label>
+  <input type="text" name="firstname" id="firstname" required>
+</div>
 
-              <div class="textbox textbox-error">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-              </div>
+<div class="textbox textbox-error">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email">
+</div>
 
-              <div class="textbox textbox-validated">
-                <label for="postalcode">Postal Code</label>
-                <input type="text" name="postalcode" id="postalcode">
-              </div>
+<div class="textbox textbox-validated">
+  <label for="postalcode">Postal Code</label>
+  <input type="text" name="postalcode" id="postalcode">
+</div>
             </code>
           </pre>
         </article>
@@ -690,19 +748,19 @@
           </div>
           <pre>
             <code>
-              <h1 class="heading-1">Heading 1</h1>
-              <h1 class="heading-2">Heading 2</h1>
-              <h1 class="heading-3">Heading 3</h1>
-              <h1 class="heading-4">Heading 4</h1>
-              <h1 class="heading-5">Heading 5</h1>
-              <p class="text-1">Lorem Ipsum</p>
-              <p class="text-2">Lorem Ipsum</p>
-              <p class="text-3">Lorem Ipsum</p>
-              <p class="text-4">Lorem Ipsum</p>
-              <p class="text-5">Lorem Ipsum</p>
-              <p class="text-small">Small Text</p>
-              <p class="text-gray">Gray Text</p>
-              <p class="text-center">Center Text</p>
+<h1 class="heading-1">Heading 1</h1>
+<h1 class="heading-2">Heading 2</h1>
+<h1 class="heading-3">Heading 3</h1>
+<h1 class="heading-4">Heading 4</h1>
+<h1 class="heading-5">Heading 5</h1>
+<p class="text-1">Lorem Ipsum</p>
+<p class="text-2">Lorem Ipsum</p>
+<p class="text-3">Lorem Ipsum</p>
+<p class="text-4">Lorem Ipsum</p>
+<p class="text-5">Lorem Ipsum</p>
+<p class="text-small">Small Text</p>
+<p class="text-gray">Gray Text</p>
+<p class="text-center">Center Text</p>
             </code>
           </pre>
         </article>
@@ -714,52 +772,50 @@
           </p>
           <div class="demo">
             <span class="rating">
-              <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-              <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-              <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
+              <span class="rating-star icon-filled" data-number="1"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star icon-filled" data-number="2"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star icon-filled" data-number="3"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
             </span>
             <span class="rating disabled">
-              <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
+              <span class="rating-star icon-filled" data-number="1"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="2"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="3"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
             </span>
             <span class="rating">
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              <span class="rating-star"><i class="fa-regular fa-star"></i></span>
+              <span class="rating-star" data-number="1"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="2"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="3"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+              <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
             </span>
           </div>
           <pre>
             <code>
-              <span class="rating">
-                <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-                <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-                <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              </span>
-
-              <span class="rating disabled">
-                <span class="rating-star icon-filled"><i class="fa-solid fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              </span>
-
-              <span class="rating">
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-                <span class="rating-star"><i class="fa-regular fa-star"></i></span>
-              </span>
+<span class="rating">
+  <span class="rating-star icon-filled" data-number="1"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star icon-filled" data-number="2"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star icon-filled" data-number="3"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
+</span>
+<span class="rating disabled">
+  <span class="rating-star icon-filled" data-number="1"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="2"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="3"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
+</span>
+<span class="rating">
+  <span class="rating-star" data-number="1"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="2"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="3"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="4"><i class="fa-solid fa-star"></i></span>
+  <span class="rating-star" data-number="5"><i class="fa-solid fa-star"></i></span>
+</span>
             </code>
           </pre>
         </article>
@@ -785,16 +841,16 @@
           </div>
           <pre>
             <code>
-              <div class="grid-2">
-                <div class="grid-col">Col 1</div>
-                <div class="grid-col">Col 2</div>
-              </div>
-  
-              <div class="grid-3">
-                <div class="grid-col">Col 1</div>
-                <div class="grid-col">Col 2</div>
-                <div class="grid-col">Col 3</div>
-              </div>
+<div class="grid-2">
+  <div class="grid-col">Col 1</div>
+  <div class="grid-col">Col 2</div>
+</div>
+
+<div class="grid-3">
+  <div class="grid-col">Col 1</div>
+  <div class="grid-col">Col 2</div>
+  <div class="grid-col">Col 3</div>
+</div>
             </code>
           </pre>
         </article>
@@ -802,6 +858,7 @@
     </main>
     <footer class="footer">
       <p class="text-center text-gray text-small"><span>© Foobar UI</span></p>
+      <button class="btn btn-floating-action scroll-top"><i class="fa-solid fa-angle-up"></i></button>
     </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
@@ -815,5 +872,6 @@
         codeBlock.innerHTML = code;
       });
     </script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
