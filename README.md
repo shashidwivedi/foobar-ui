@@ -51,6 +51,11 @@ Visit [Foobar UI](https://foobar-ui.netlify.app/) fore more info
 - Rating  
   Rating gives you a way to add ratings in your project. Usually used for showing/giving ratings to products in e-commerce.
 
+- Toast  
+  Toast component provides brief messages at the bottom of the screen.
+  These messages disappear ater a certain period of time or when close button is clicked.
+  It is generally used to give feedback or status after an action.
+
 - Simplified Grid  
   Simplified Grid component gives you the way to add two-column and three-column grids to your project.
     - grid-2: two items in a grid
