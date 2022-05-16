@@ -18,6 +18,7 @@ sed -s -e $'$a\\\n' $parent_path/components/image/image.css > $parent_path/workf
 sed -s -e $'$a\\\n' $parent_path/components/input/input.css > $parent_path/workflow/input.css
 sed -s -e $'$a\\\n' $parent_path/components/text-utilities/text-utilities.css > $parent_path/workflow/text-utilities.css
 sed -s -e $'$a\\\n' $parent_path/components/rating/rating.css > $parent_path/workflow/rating.css
+sed -s -e $'$a\\\n' $parent_path/components/toast/toast.css > $parent_path/workflow/toast.css
 sed -s -e $'$a\\\n' $parent_path/components/grid/grid.css > $parent_path/workflow/grid.css
 
 # Merge temp CSS files into /styles/foobar-ui.css
@@ -35,6 +36,7 @@ $parent_path/workflow/image.css \
 $parent_path/workflow/input.css \
 $parent_path/workflow/text-utilities.css \
 $parent_path/workflow/rating.css \
+$parent_path/workflow/toast.css \
 $parent_path/workflow/grid.css \
 > $parent_path/styles/foobar-ui.css
 
@@ -54,6 +56,7 @@ rm $parent_path/workflow/image.css
 rm $parent_path/workflow/input.css
 rm $parent_path/workflow/text-utilities.css
 rm $parent_path/workflow/rating.css
+rm $parent_path/workflow/toast.css
 rm $parent_path/workflow/grid.css
 
 echo "CSS merging complete"

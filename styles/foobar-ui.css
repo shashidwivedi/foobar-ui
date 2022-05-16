@@ -862,6 +862,56 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-secondary);
 }
 
+.toast {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: var(--space-xs);
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.toast--open {
+  display: flex;
+}
+
+.toast-body {
+  background-color: var(--color-dark);
+  border-radius: 4px;
+  color: var(--color-light);
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+}
+
+.toast--open .toast-body {
+  opacity: 1;
+}
+
+.toast-label {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-md);
+  font-weight: var(--font-weight-regular);
+  padding: var(--space-xs) var(--font-size-sm);
+}
+
+.toast-actions {
+  padding: var(--space-xs) var(--font-size-sm);
+}
+
+.toast-actions .btn.btn-icon {
+  margin: 0;
+  background-color: transparent;
+}
+
+.toast-actions .btn-icon:hover {
+  background-color: #333;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
